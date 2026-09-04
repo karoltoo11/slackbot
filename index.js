@@ -16,7 +16,7 @@ app.command("/karoltoo11bot-status", async ({ ack, respond }) => {
 
 app.command("/karoltoo11bot-commands", async ({ ack, respond }) => {
     await ack();
-    await respond("Commands: ``/karoltoo11bot-commands`, /karoltoo11bot-status`, `/karoltoo11bot-kittyfact`, `/karoltoo11bot-doggyfact`, `/karoltoo11bot-funfact`, `/karoltoo11bot-daddyjokes`")
+    await respond("Commands: `/karoltoo11bot-commands`, `/karoltoo11bot-status`, `/karoltoo11bot-kittyfact`, `/karoltoo11bot-doggyfact`, `/karoltoo11bot-funfact`, `/karoltoo11bot-daddyjokes`")
 });
 
 app.command("/karoltoo11bot-kittyfact", async ({ ack, respond }) => {
